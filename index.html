@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/bubble-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Bubble Fusion Lab - 把碎片灵感变成可复用创意资产的可视化工具" />
+    <title>Bubble Fusion Lab - 创意气泡爆炸器</title>
+    <style>
+      /* 全局蓝白极简主题调整（非侵入，仅初始载入用） */
+      :root {
+        color-scheme: light;
+        --bfl-surface: #ffffff;
+        --bfl-surface-2: #f8fafc;
+        --bfl-border: #e2e8f0;
+        --bfl-text: #0f172a;
+      }
+      body { background: var(--bfl-surface-2); }
+    </style>
+    <script>
+      // 可选的后端API配置
+      window.__BFL_API__ = 'http://localhost:7070';
+      // 建议：不要在前端注入任何模型API Key，统一走后端代理以保护密钥
+      // 若仍需直连 DeepSeek，请手动设置以下两行（不推荐在生产环境使用）
+      // window.__DEEPSEEK_KEY__ = 'sk-xxx';
+      // window.__DEEPSEEK_BASE__ = 'https://api.deepseek.com';
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
