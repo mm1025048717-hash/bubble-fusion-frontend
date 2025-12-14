@@ -15,7 +15,7 @@ We turn your ideas into visual **bubbles** — and when you drag two bubbles tog
 ---
 
 ## 🎥 Demo Preview
-👉 [Live Demo](https://your-demo-link.com) *(hosted on Vercel/Netlify)*  
+👉 [Live Demo](https://www.xiaohongshu.com/explore/68a5129a000000001d039f6f?xsec_token=ABQ30Hcj7NGgoXtYuUzI1OaZF4vwCHcgdBlTJUpBFXpAM=&xsec_source=pc_user) *(hosted on Vercel/Netlify)*  
 
 ![Bubble Fusion Demo](docs/demo.gif)  
 
